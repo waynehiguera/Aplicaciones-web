@@ -155,24 +155,16 @@ if(isset($_POST['sent'])) {
                     </button>
                     <a class="navbar-brand" href="marketing-index.html"><img src="images/version/market-logo.png" alt=""></a>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav mr-auto" style=" top: -35px;position: relative; left: 254px;">
+
+
                             <li class="nav-item">
-                                <a class="nav-link" href="marketing-index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="marketing-category.html">Marketing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="marketing-category.html">Make Money</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="marketing-blog.html">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="marketing-contact.html">Contact Us</a>
+                                <a class="nav-link" href="marketing-contact.html">Compras Us</a>
                             </li>
                         </ul>
-
+                        <form class="form-inline" style=" position: absolute; top: 33px; left: 1298px;">
+                      <a class="btn btn-outline-success" href="log_out.php" >Cerrar sesion</a>
+                        </form>
                     </div>
                 </nav>
             </div><!-- end container-fluid -->
@@ -191,7 +183,7 @@ if(isset($_POST['sent'])) {
 
 
 
-            <div class="newsletter-widget text-center align-self-center" style="    right: -681px;">
+            <div class="newsletter-widget text-center align-self-center" style="    right: -773px;">
 
 
                 <h3 >Registro de usuarios</h3>

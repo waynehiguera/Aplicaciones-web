@@ -125,7 +125,9 @@ function eliminar(){
                                 <a class="nav-link" href="marketing-contact.html">Contact Us</a>
                             </li>
                         </ul>
-
+                        <form class="form-inline" style=" position: absolute; top: 33px; left: 1298px;">
+                      <a class="btn btn-outline-success" href="log_out.php" >Cerrar sesion</a>
+                        </form>
                     </div>
                 </nav>
             </div><!-- end container-fluid -->

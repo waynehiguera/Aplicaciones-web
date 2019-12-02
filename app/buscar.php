@@ -25,7 +25,7 @@ if ($resultado->num_rows>0) {
                 <td>Correo</td>
                 <td>Contraseña</td>
                 <td>Direccion</td>
-                <td>Accion</td>
+
                 </tr>
                 </thead>
                 <tbtbody>";
@@ -42,10 +42,7 @@ if ($resultado->num_rows>0) {
                         <td>".$fila['Contraseña']."</td>
                         <td>".$fila['Direccion']."</td>
 <form method='post' >
-                      <td>
-    <input type='submit' href='#' onClick='location.reload(false);' name='btneliminar'  class='btn btn-primary'value='Eliminar' >
 
-  </td>
                         </tr>
                         </form>";
 

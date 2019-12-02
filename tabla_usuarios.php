@@ -3,14 +3,14 @@
 
 <div class="form-1-2">
   <label for="caja_busqueda">Buscar: </label>
-  <input Type="text" name="caja_busqueda" id="caja_busqueda"></input>
+  <input Type="text" name="caja_busqueda" id="caja_busqueda" style="top: 66px; position: absolute;"></input>
 
 
 </div>
 
 
 
-<div id="datos" class="table">
+<div id="datos" class="table" style="position: absolute; top: 105px;">
 
 
 
