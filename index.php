@@ -153,7 +153,7 @@ if ($_SESSION['usuarioNivel']==1) {
                               <a class="nav-link" href="marketing-index.html">Inicio</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="marketing-category.html">Categorias</a>
+                              <a class="nav-link" href="categoria.php">Categorias</a>
                           </li>
                           <li class="nav-item">
                               <a class="nav-link" href="marketing-category.html">Compras</a>

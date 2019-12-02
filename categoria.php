@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Site Metas -->
-    <title>Contactanos</title>
+    <title>Categoria</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -59,12 +59,12 @@
                     </button>
                     <a class="navbar-brand" href="marketing-index.html"><img src="images/version/market-logo.png" alt=""></a>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav mr-auto"style=" position: relative; left: 254px;">
                             <li class="nav-item">
-                                <a class="nav-link" href="marketing-index.html">Inicio</a>
+                                <a class="nav-link" href="index_usr.php">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="marketing-category.html">Categorias</a>
+                                <a class="nav-link" href="categoria.php">Categorias</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="marketing-category.html">Compras</a>
@@ -73,9 +73,9 @@
                                 <a class="nav-link" href="marketing-contact.html">Contactanos</a>
                             </li>
                         </ul>
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                        <form class="form-inline " style=" position: absolute; top: 19px; left: 1298px;">
+                          <a class="btn btn-outline-success" href="log_out.php" >Cerrar sesion</a>
+
                         </form>
                     </div>
                 </nav>
@@ -85,14 +85,14 @@
         <div class="page-title db">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                        <h2>Contactanos <small class="hidden-xs-down hidden-sm-down">Busca diferentes formas de contactarnos</small></h2>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"  >
+                        <h2> Categorias <small class="hidden-xs-down hidden-sm-down">Elige cualquiera de nuestras categorias. </small></h2>
                     </div><!-- end col -->
                     <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item active">Contactanos</li>
+                            <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                            <li class="breadcrumb-item active">Categorias</li>
                         </ol>
                     </div><!-- end col -->
                 </div><!-- end row -->
@@ -102,59 +102,95 @@
         <section class="section lb">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                        <div class="sidebar">
-                            <div class="widget-no-style">
-                                <div class="newsletter-widget text-center align-self-center">
-                                    <h3>¡Suscribase a nuestro lote de noticias!</h3>
-                                    <p>Puede suscribirse hoy para recibir noticias sobre nuestras ultimas ofertas y novedades.</p>
-                                    <form class="form-inline" method="post">
-                                        <input type="text" name="email" placeholder="Ingrese su correo." required class="form-control" />
-                                        <input type="submit" value="Subscribirse" class="btn btn-default btn-block" />
-                                    </form>
-                                </div><!-- end newsletter -->
-                            </div>
-                        </div><!-- end sidebar -->
-                    </div><!-- end col -->
 
-                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12" style=" position: relative; left: 169px;">
                         <div class="page-wrapper">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <h4>¿Quíenes somos?</h4>
-                                    <p>Markedia es una empresa especializada en la venta de ropa a modo de boutique para el publico adulto de ambos generos.</p>
-                                </div>
+                            <div class="blog-custom-build">
+                                <div class="blog-box wow fadeIn">
+                                    <div class="post-media">
+                                        <a href="marketing-single.html" title="">
+                                            <img src="https://www.tutareaescolar.com/wp-content/uploads/2016/05/Clases-de-Zapatos.jpg" alt="" class="img-fluid">
+                                            <div class="hovereffect">
+                                                <span></span>
+                                            </div>
+                                            <!-- end hover -->
+                                        </a>
+                                    </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta big-meta text-center">
+                                        <h4><a href="marketing-single.html" title="">Zapatos</a></h4>
+                                        <p>Si busca algún calzado para caminar, algún evento, salir con tus amigos o para lo que usted le guste, pruebe buscando nuestro calzado.</p>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
 
-                                <div class="col-lg-6">
-                                    <h4>¿Cómo puedo ayudar?</h4>
-                                    <p>Si desea ayudar, puede hacerlo poniendose en contacto con nosotros, su opinión nos es importante.</p>
-                                </div>
-                            </div><!-- end row -->
+                                <hr class="invis">
 
-                            <hr class="invis">
+                                <div class="blog-box wow fadeIn">
+                                    <div class="post-media">
+                                        <a href="marketing-single.html" title="">
+                                            <img src="https://i.ytimg.com/vi/91qeA4pGkYo/maxresdefault.jpg" alt="" class="img-fluid">
+                                            <div class="hovereffect">
+                                                <span></span>
+                                            </div>
+                                            <!-- end hover -->
+                                        </a>
+                                    </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta big-meta text-center">
+                                        <div class="post-sharing">
+                                        </div><!-- end post-sharing -->
+                                        <h4><a href="marketing-single.html" title="">Blusas</a></h4>
+                                        <p>Si quieres lucirte como es debido ante alguna salida con tus amigos, fiestas, reuniones o en los días cotidianos, busca alguna de nuestras blusas.</p>
+                                     </div><!-- end meta -->
+                                </div><!-- end blog-box -->
 
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <form class="form-wrapper">
-                                    <h4>Si desea contactarnos ingrese los siguientes datos:</h4>
-                                        <input type="text" class="form-control" placeholder="Nombre">
-                                        <input type="text" class="form-control" placeholder="Dirección de correo">
-                                        <input type="text" class="form-control" placeholder="Número de celular">
-                                        <input type="text" class="form-control" placeholder="Título del mensaje">
-                                        <textarea class="form-control" placeholder="Mensaje"></textarea>
-                                        <button type="submit" class="btn btn-primary">Enviar <i class="fa fa-envelope-open-o"></i></button>
-                                    </form>
-                                </div>
+                                <hr class="invis">
+
+                                <div class="blog-box wow fadeIn">
+                                    <div class="post-media">
+                                        <a href="marketing-single.html" title="">
+                                            <img src="https://i.blogs.es/47dff4/levi-s/450_1000.jpg" alt="" class="img-fluid">
+                                            <div class="hovereffect">
+                                                <span></span>
+                                            </div>
+                                            <!-- end hover -->
+                                        </a>
+                                    </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta big-meta text-center">
+                                        <h4><a href="marketing-single.html" title="">Pantalones</a></h4>
+                                        <p>Si quieres que tu conjunto sobresalga, entonces conseguir un par de pantalones se convierte en una buena opción, busca aquello que cumpla con tus gustos.</p>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
+
+                                <hr class="invis">
+
+                                <div class="blog-box wow fadeIn">
+                                    <div class="post-media">
+                                        <a href="marketing-single.html" title="">
+                                            <img src="https://www.diarioinformacion.com/elementosWeb/gestionCajas/MMP/Image/2019//vestidos-fiestas-1.jpg" alt="" class="img-fluid">
+                                            <div class="hovereffect">
+                                                <span></span>
+                                            </div>
+                                            <!-- end hover -->
+                                        </a>
+                                    </div>
+                                    <!-- end media -->
+                                    <div class="blog-meta big-meta text-center">
+                                        <h4><a href="marketing-single.html" title="">Vestidos</a></h4>
+                                        <p>Un vestido nunca viene mal si se desea lucir bien, si te interesa encontrar algo para ti puedes intentar buscando en nuestro catalogo.</p>
+                                    </div><!-- end meta -->
+                                </div><!-- end blog-box -->
                             </div>
-                        </div><!-- end page-wrapper -->
+                        </div>
+
+                        <hr class="invis">
                     </div><!-- end col -->
                 </div><!-- end row -->
             </div><!-- end container -->
         </section>
 
         <footer class="footer">
-            <div><pre class="widget-title">Contactenos por los siguientes medios:    01 800 000 00 | Markmedia@gmail.com </pre></div>
-            <br>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
@@ -239,8 +275,7 @@
                                     </a>
                                 </div>
                             </div><!-- end blog-list -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
+                        </div><!-- end widget -->                   </div><!-- end col -->
 
                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                         <div class="widget">
@@ -254,6 +289,7 @@
                                 </ul>
                             </div><!-- end link-widget -->
                         </div><!-- end widget -->
+
                     </div><!-- end col -->
                 </div><!-- end row -->
                 <div class="row">
