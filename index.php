@@ -162,10 +162,7 @@ if ($_SESSION['usuarioNivel']==1) {
                               <a class="nav-link" href="marketing-contact.html">Contactanos</a>
                           </li>
                       </ul>
-                      <form class="form-inline">
-                          <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
-                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                      </form>
+                      
                   </div>
               </nav>
           </div><!-- end container-fluid -->

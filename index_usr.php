@@ -94,7 +94,7 @@ function eliminar(){
                                 <a class="nav-link" href="marketing-category.html">Compras</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="marketing-contact.html">Contactanos</a>
+                                <a class="nav-link" href="contacto.php">Contactanos</a>
                             </li>
                         </ul>
                         <form class="form-inline " style=" position: absolute; top: 19px; left: 1298px;">
@@ -123,7 +123,7 @@ function eliminar(){
         </div><!-- end page-title -->
 
         <section class="section lb">
-          
+
         </section>
 
         <footer class="footer">
