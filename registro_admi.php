@@ -1,5 +1,11 @@
 
 <?php
+
+if(!isset($_SESSION)) {
+  session_start();
+// session_destroy();
+  if(!isset($_SESSION['usuarioId'])) header('Location: registro_admi.php?authError=true');
+}
 include("conn/connLocalhost.php");
 
 include("includes/utils.php");
@@ -99,10 +105,15 @@ if(isset($_POST['sent'])) {
     <!-- Version Marketing CSS for this template -->
     <link href="css/version/marketing.css" rel="stylesheet">
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <script type="text/javascript">
+
+  function MM_jumpMenuGo(objId,targ,restore){ //v9.0
+    var selObj = null;  with (document) {
+    if (getElementById) selObj = getElementById(objId);
+    if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+    if (restore) selObj.selectedIndex=0; }
+  }
+</script>
 
 </head>
 <body>

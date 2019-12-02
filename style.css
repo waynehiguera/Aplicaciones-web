@@ -9,7 +9,7 @@
 
 /**************************************
     Table of Content
-    
+
     1. BASIC
     2. HEADER
     3. SECTION
@@ -19,7 +19,7 @@
     7. WIDGETS
 **************************************/
 
-/* BASIC 
+/* BASIC
 **************************************/
 
 body {
@@ -117,6 +117,44 @@ p {
 a {
     text-decoration: none !important;
 }
+#registro-tabla{
+
+  right: 102px; */
+      position: absolute;
+      right: -o%;
+      /* float: right; */
+      /* margin: 5px; */
+      margin-left: 134px;
+
+
+
+}
+.tabla-usuarios{
+  position: absolute;
+  background: yellowgreen;
+  top: 28px;
+  height: 554px;
+  width: 804px;
+  /* position: relative; */
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+.contenido-arriba{
+  width: 95%;
+      top: 126px;
+      /* padding: 2rem 6px; */
+      height: 926px;
+      border-radius: 6px;
+      position: relative;
+      background: green;
+      margin-right: auto;
+      margin-left: auto;
+      
+
+}
+
 
 .blockquote {
     border: 1px solid #edeff2;
@@ -130,7 +168,7 @@ a {
 }
 
 
-/* HEADER 
+/* HEADER
 **************************************/
 
 .header {
@@ -699,7 +737,7 @@ div.tab button:hover {
 }
 
 
-/* PAGES 
+/* PAGES
 **************************************/
 
 .notfound h2 {
@@ -833,7 +871,7 @@ div.tab button:hover {
 }
 
 
-/* BLOG 
+/* BLOG
 **************************************/
 
 .carousel-indicators li {
@@ -1320,7 +1358,7 @@ hr.invis3 {
 }
 
 
-/* WIDGETS 
+/* WIDGETS
 **************************************/
 
 .sidebar .widget {
